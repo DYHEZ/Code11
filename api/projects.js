@@ -60,7 +60,7 @@ export default async function handler(req, res) {
       
       // Önce mevcut datayı al
       const currentResponse = await fetch(
-        'https://api.github.com/repos/KULLANICIADI/REPOADI/contents/database/projects.json',
+        'https://api.github.com/repos/DYHEZ/Code11/contents/database/projects.json',
         {
           headers: {
             'Authorization': `token ${token}`,
@@ -89,7 +89,7 @@ export default async function handler(req, res) {
       
       // GitHub'a yaz
       const updateResponse = await fetch(
-        'https://api.github.com/repos/KULLANICIADI/REPOADI/contents/database/projects.json',
+        'https://api.github.com/repos/DYHEZ/Code11/contents/database/projects.json',
         {
           method: 'PUT',
           headers: {

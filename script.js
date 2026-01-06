@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update download button text with count
         const downloadBtn = document.querySelector('.btn-download');
         if (downloadBtn) {
-            downloadBtn.innerHTML = `<i class="fas fa-download"></i> Tüm Kodu İndir (${downloadCount})`;
+            downloadBtn.innerHTML = `<i class="fas fa-download"></i> Code11 İndir Apk (${downloadCount})`;
         }
         
         // Increment on download
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Update button text
                 if (downloadBtn) {
-                    downloadBtn.innerHTML = `<i class="fas fa-download"></i> Tüm Kodu İndir (${downloadCount})`;
+                    downloadBtn.innerHTML = `<i class="fas fa-download"></i> Code11 İndir Apk (${downloadCount})`;
                 }
             });
         });

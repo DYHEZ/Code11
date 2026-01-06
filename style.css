@@ -432,3 +432,61 @@ p { margin-bottom: 1rem; color: var(--gray); }
     .hero-buttons { justify-content: center; }
     .stats { gap: 2rem; }
 }
+
+
+
+
+/* Database Section */
+.database-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  border-left: 4px solid #4CAF50;
+}
+
+.database-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.database-output {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+.project-item {
+  background: #e9ecef;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border-left: 3px solid #2196F3;
+}
+
+.database-form {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.database-form input,
+.database-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.database-form textarea {
+  height: 80px;
+  resize: vertical;
+}

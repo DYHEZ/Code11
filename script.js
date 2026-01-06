@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const yearSpan = document.querySelector('footer .container p:first-child');
     if (yearSpan) {
         const currentYear = new Date().getFullYear();
-        yearSpan.innerHTML = yearSpan.innerHTML.replace('2024', currentYear);
+        yearSpan.innerHTML = yearSpan.innerHTML.replace('2026', currentYear);
     }
     
     // Add active class to nav links on scroll

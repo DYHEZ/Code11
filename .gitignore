@@ -26,6 +26,9 @@ out/
 *.so
 *.dylib
 
+# .gitignore'a ekle (GitHub'a gitmesin!)
+.env.local
+
 # ========== SİSTEM DOSYALARI ==========
 .DS_Store
 .DS_Store?

@@ -1,0 +1,39 @@
+{
+  "last_updated": "2024-01-20",
+  "total": 3,
+  "projects": [
+    {
+      "id": 1,
+      "title": "Vercel Portfolio",
+      "description": "İlk Vercel projem! GitHub + Vercel",
+      "image": "https://picsum.photos/600/400?random=1",
+      "demo_url": "https://code11-falcon.vercel.app",
+      "github_url": "https://github.com/kullanici/repo",
+      "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
+      "created_at": "2024-01-20",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "GitHub Database",
+      "description": "GitHub'ı database gibi kullanma",
+      "image": "https://picsum.photos/600/400?random=2",
+      "demo_url": "#",
+      "github_url": "#",
+      "tags": ["API", "JavaScript", "GitHub"],
+      "created_at": "2024-01-20",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Custom Domain Site",
+      "description": ".com domain ile Vercel site",
+      "image": "https://picsum.photos/600/400?random=3",
+      "demo_url": "#",
+      "github_url": "#",
+      "tags": ["Domain", "DNS", "Vercel"],
+      "created_at": "2024-01-20",
+      "featured": false
+    }
+  ]
+}
